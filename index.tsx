@@ -26,7 +26,7 @@ const CopyIcon = ({ copied }: { copied: boolean }) => (
 
 const presets = [
   { name: 'ジョブメドレー', selector: 'h3 a' },
-  { name: 'レバウェル', selector: 'h3 span' },
+  { name: 'レバウェル', selector: 'h3' },
   { name: 'ナース専科', selector: 'h3' },
   { name: 'ハローワーク', selector: 'td div h2' },
 ];
